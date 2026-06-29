@@ -1,33 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Atividade: Mapa Interativo de 4 Regiões</title>
-    <body>
-        <figure><img src="ccinter.png" alt="" usemap="#clube"><figcaption>Fonte: Google Maps</figcaption></figure>
-        <map name="clube">
-            <area shape="poly" coords="52,268,44,225,224,141,383,67,387,166,389,257,215,260," href="arte.html" alt="">
-            <area shape="rect" coords="398,62,441,252" href="prof.html" alt="">
-            <area shape="circle" coords="497,100,50" href="cei.html" alt="">
-        </map>
-        <h1>CCinter Clube da Turma</h1>
-        <h2>Matheus Henrique Alcantara 08/06/2026</h2>
-        <p>A OSC CCInter iniciou sua atividade em novembro de 1965, completou em 2022, 57 anos
-de serviços prestados à comunidade. Surge como uma pequena história, com a vontade
-de senhoras da comunidade de Santo Amaro de proporcionar um local seguro às
-crianças enquanto suas mães trabalhavam para ganhar seu sustento. Estamos nas
-décadas de 60 e 70, quando ainda se acreditava que nós, entidades sociais, sabíamos o
-que seria melhor para essa população. Para conhecer cada área, basta clicar sobre o
-prédio na imagem.</p>
+    <link rel="stylesheet" href="form1.css">
+    <title>Index Treino</title>
+</head>
+<body>
+    <div>
+    <h1>Cadastro do Candidato</h1>
+    <form action="https://formspree.io/f/mvzlrnqg"method="post">
+       <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="Nome">*Nome
+            <input type="text" name="nome" value="" size="10"
+            maxlength="7" placeholder="Digite aqui" required>
+            </label>
+
+            Data de Nascimento<input type="date">
+           Sexo Biológico: <input type="radio" name="sexo">Masculino <input type="radio" name="sexo"> Feminino <input type="radio" name="sexo"> Não Especificado <input type="radio" name="sexo"> Ignorado <input type="radio" name="sexo">
+           CPF <input type="text">
+           Estado Civil: <input type="radio" name="sexo">Solteiro <input type="radio" name="estadocivil"> Casado <input type="radio" name="estadocivil"> Viúvo <input type="radio" name="estadocivil"> Divorciado <input type="radio" name="estadocivil">
+        </fieldset> 
+
+        <fieldset>
+            <legend>Informações Locais</legend>
+        Rua, nº <input type="text" name="Rua" value="" size="21" maxlength="21" placeholder="Digite aqui" required>
+        Complemento - <input type="text" name="Complemento" size="7" maxlength="7" placeholder="Digite aqui" required>
+        Bairro - <input type="text" name="Bairro" size="12" maxlength="12" placeholder="Digite aqui" required>
+        CEP - <input type="text" name="CEP" size="9" maxlength="9" placeholder="Digite aqui" required>
+        <i for="UF">UF
+            <select name="Selecione" id="size=1">
+                <option>Escolha</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AM</option>
+                <option>AP</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MG</option>
+                <option>MS</option>
+                <option>MT</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>PR</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>RS</option>
+                <option>SC</option>
+                <option>SE</option>
+                <option>SP</option>
+                <option>TO</option>
+                </select>
+
+                 Celular - <input type="text" name="phone" size="13" maxlength="13" placeholder="Numero aqui" required>
+                 Email - <input type="text" name="email" size="20" maxlength="20" placeholder="Email aqui">
+                  <textarea name="" id="" cols="20" rows="10" style="resize: none;">Deixe aqui, seu comentário</textarea>
+
+                  <button type="reset">Limpar</button>
+                  <button type="submit">Enviar</button>
+
+                 
 
 
-       
+
+            
+
+      
+
+
+
+
+
+
+
+
+
+
         
-        
 
-        
+     
+</div>
+    </form>
 
+    
 </body>
 </html>

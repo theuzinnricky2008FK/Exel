@@ -1,0 +1,52 @@
+fieldset{
+    display: grid;
+    flex-direction: column;
+
+    
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+}
+
+
+input{
+    display: flex;
+    margin: 0%;
+    flex-direction: column;
+      
+}
+
+
+h1{
+    text-align: center;
+}
+
+legend{
+    text-align: center;
+    color: brown;
+}
+
+form{
+    width: 600px;
+    font-family: sans-serif;
+    margin: 0% auto;
+}
+
+.radio-group{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.campo-curto{
+    max-width: 150px;
+}
+
+button{
+    align-items: center;
+   
+
+}
+
