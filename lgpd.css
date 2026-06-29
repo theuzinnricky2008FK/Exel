@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 23px; 
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;  
+}
+img{
+    width: 460px;
+    text-align: center;  
+}
+
+div{
+    text-decoration: underline;
+}
+
+figure{
+    text-decoration: line-through;
+}
+
+video{
+    width: 500px;
+    
+
+}
+
+span{
+    background-color: yellow;
+    border: yellow;
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+
+
+button{
+    color: red;
+    border: none;
+    cursor:pointer
+}
+
+
+
