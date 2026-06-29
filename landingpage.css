@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: rebeccapurple;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 100vw;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div{
+    width: 50%;
+    justify-content: left;
+    text-align: left;    
+}
+
+.purple.back{
+    background-color: rebeccapurple;
+    justify-content: left;
+    text-align: left;
+    
+}
+
+.purple.back-2{
+    background-color: rebeccapurple;
+      text-align: left;
+    
+}
+
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+}
+
+li{
+    background-color: rebeccapurple;
+    font-size: 23px;
+    list-style-type: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    text-align: left;
+}
+
+form{
+    background-color: rebeccapurple;
+}
+
+input{
+    width: 50%;
+    height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+     
+}
+
+h2{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: 34px;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    justify-content: center;
+    text-align: center;
+    background-color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+h4{
+     font-family: Arial, Helvetica, sans-serif;
+     display: block;
+     text-align: center;
+     
+     font-size: 11px;
+     gap: unset;
+     
+}
+
+button{
+    width: 300px;
+    height: 130px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+}
+
+.Button2{
+    margin: 4%;
+    width: 270px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    justify-content: left;
+    text-align: left;
+}
+
+
+
+img{
+    width: 250px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+
+.greenback{
+    background-color: rgb(167, 223, 167);
+    justify-content: left;
+    text-align: left;
+}
+
+green.back-2{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(167, 223, 167);
+    
+    
+
+}
+
+.greencolor{
+    
+    color: black;
+    justify-content: left;
+    text-align: left;
+    font-size: 24px;
+}
+
+.blackcolor{
+
+    color: black;
+    justify-content: left;
+    text-align: left;
+    font-size: 24px;
+    background-color: rgb(167, 223, 167);
+}
+
+.imgform{
+    width: 450px;
+}
+
+.rightdirection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.finalsection{
+    margin-right: 31%;
+    display: inline-flexbox;
+    justify-content: left;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+.finalbutton{
+    margin: 1%;
+   align-items: center;
+    width: 190px;
+    height: 60px;
+    border: 10px;
+    border-radius: 5%;
+}
+
+.finalsection2{
+     margin-right: 45%;
+    display: inline-flexbox;
+    justify-content: left;
+    text-align: justify;
+    align-items: right;
+
+
+}
+
+.finalsection3{
+    width: 50vh;
+    height: 10vw;
+    background-color: rebeccapurple;
+     margin-right: 90%;
+    display: inline-flexbox;
+    justify-content: left;
+    text-align: justify;
+    align-items: right;
+}
+
+.provc{
+    display: flex;
+    align-items: flex-start;
+    height: 119px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 48px;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color:rebeccapurple;
+    text-shadow: 5px 5px 0px;
+    text-align: left;
+}
+
+
+
+.finalh1g{
+    justify-content: left;
+    text-align: justify;
+}
+
+h5{
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rebeccapurple;
+    font-size: 24px;
+    text-align: center;
+
+
+}
+
+.numbersfooter2{
+    color: white;
+    font-size: 24px;
+}
+
+.numbersfooter{
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.imgfinal{
+    width: 550px;
+}
+
+
+
+
+
+
+
+
